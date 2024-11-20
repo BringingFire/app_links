@@ -142,8 +142,8 @@ namespace applinks
 			case IDM_GETARGSWAS:
 				SendAppLink(hwnd);
 				break;
-			default:
-				return DefWindowProc(hwnd, message, wparam, lparam);
+			// default:
+			// 	return DefWindowProc(hwnd, message, wparam, lparam);
 			}
 		}
 
